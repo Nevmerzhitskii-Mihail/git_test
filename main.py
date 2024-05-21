@@ -2,5 +2,6 @@ def factorial(n):
     if n <= 1: return 1
     return n * factorial(n)
 
-
-factorial(10)
+a = factorial(10)
+print(a)
+print(a - 10)
